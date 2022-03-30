@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/chrome": "0.0.128",
+    "eslint": "^7.18.0"
+  }
+}

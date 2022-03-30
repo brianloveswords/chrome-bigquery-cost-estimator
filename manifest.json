@@ -1,0 +1,13 @@
+{
+    "name": "BigQuery Cost Estimator",
+    "version": "1.0",
+    "description": "Shames you into not running up our GCP bill",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["https://console.cloud.google.com/bigquery*"],
+            "js": ["contentScript.js"]
+        }
+    ]
+}
