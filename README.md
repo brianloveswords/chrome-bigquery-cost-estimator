@@ -1,4 +1,4 @@
-# data-chrome-bigquery-cost-estimator
+# chrome-bigquery-cost-estimator
 
 A Chrome extension that adds query cost to the BigQuery web UI.
 
